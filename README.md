@@ -1,5 +1,5 @@
 # s.l.i.b.s.
-**S**tream**L**ink **I**n **B**ash **S**cript
+## **S**tream**L**ink **I**n **B**ash **S**cript
 
 The script assumes your Streamlink Python environment is called 'env_streamlink'.
 
@@ -14,3 +14,8 @@ for example:
 The visited streams are saved in a file called 'shist'.
 
 Currently does not interact with Streamlink in any other way than the terminal passing the information to its environment.
+
+### Soon:
+
+- More platforms supported
+- User is able to set the environment's name and/or location through a one-time configuration
