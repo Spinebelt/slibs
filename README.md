@@ -13,7 +13,7 @@ for example:
 
 The visited streams are saved in a file called 'shist'.
 
-### Setting stream quality
+### Set the stream quality
 
 For now you can set the stream quality using `./s STREAM_NAME STREAM_PLATFORM QUALITY` where `QUALITY` has to match the quality description used by Streamlink. For example: `./s chess twitch 720p`. You do not have to type out the complete domain name of the platform if it is included in slibs' platform list. 
 
