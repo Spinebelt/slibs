@@ -11,17 +11,26 @@ for example:
 
 `./s blastpremier`
 
-The visited streams are saved in a file called 'shist'.
+The visited streams are saved in a file called 'shist'. 
+
+slibs currently does not interact with Streamlink in any other way than the terminal passing information to its environment.
+
 
 ### Set the stream quality
 
-For now you can set the stream quality using `./s STREAM_NAME STREAM_PLATFORM QUALITY` where `QUALITY` has to match the quality description used by Streamlink. For example: `./s chess twitch 720p`. You do not have to type out the complete domain name of the platform if it is included in slibs' platform list. 
+For now you can set the stream quality this way: 
+
+`./s STREAM_NAME STREAM_PLATFORM QUALITY` 
+
+The `QUALITY` setting has to match the description used by Streamlink. For example: 
+
+`./s chess twitch 720p`
+
+You do not have to type out the complete domain name of the platform if it is included in slibs' platform list. 
 
 ### Basic configuration using `--configure`
 
 Allows you to set a default platform to avoid having to type it out every time.
-
-Currently does not interact with Streamlink in any other way than the terminal passing information to its environment.
 
 ### Soon:
 
